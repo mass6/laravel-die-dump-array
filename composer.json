@@ -1,0 +1,28 @@
+{
+    "name": "mass6/laravel-die-dump-array",
+    "description": "Helper function to die and dump Laravel collection to their array representation",
+    "keywords": [
+        "mass6",
+        "laravel-die-dump-array"
+    ],
+    "homepage": "https://github.com/mass6/laravel-die-dump-array",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sam Ciaramilaro",
+            "email": "samcharmy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "files": ["src/helper.php"]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
