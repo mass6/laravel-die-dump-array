@@ -16,7 +16,7 @@ if (!function_exists('dda')) {
                 return Vardumper::dump($var);
             }
         }
-        exit(1);
+        die(1);
     }
 }
 
